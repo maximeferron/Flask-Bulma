@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin One — Bulma Dashboard</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Fonts -->
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<section class="section hero is-fullheight is-error-section">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-two-fifths">
+          <div class="card has-card-header-background">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span class="icon"><i class="mdi mdi-lock default"></i></span>
+                <span>Login</span>
+              </p>
+              <a href="index.html" class="button is-small">Dashboard</a>
+            </header>
+            <div class="card-content">
+              <form method="POST">
+                <div class="field">
+                  <label class="label">E-mail Address</label>
+                  <div class="control">
+                    <input type="email" autocomplete="on" name="email" class="input" required autofocus>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Password</label>
+                  <div class="control">
+                    <input type="password" autocomplete="on" name="password" class="input" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="b-checkbox checkbox is-thin"><input type="checkbox" value="false">
+                    <span class="check is-black"></span>
+                    <span class="control-label">Remember me</span>
+                  </label>
+                </div>
+                <hr>
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button type="submit" class="button is-black">
+                      Login
+                    </button>
+                  </div>
+                  <div class="control">
+                    <a href="password-recovery.html" class="button is-outlined is-black">
+                      Forgot Password?
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot has-text-centered">
+    <div class="logo"></div>
+  </div>
+</section>
+
+<!-- Stuff below is for demo-only -->
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
+</body>
+</html>

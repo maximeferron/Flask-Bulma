@@ -1,0 +1,22 @@
+/* Bulma */
+@import "~bulma/bulma";
+
+/* Mdi font */
+// For simplicity we'd use CDN version
+//@import "~@mdi/font/scss/materialdesignicons";
+
+/* Styled Uploads, Checkboxes, Radios & Switches */
+@import "~buefy/src/scss/utils/variables";
+@import "~buefy/src/scss/utils/functions";
+@import "~buefy/src/scss/components/checkbox";
+@import "~buefy/src/scss/components/radio";
+@import "~buefy/src/scss/components/switch";
+@import "~buefy/src/scss/components/upload";
+@import "buefy-table-checkbox";
+
+/* Perfect scrollbar */
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+@import "perfect-scrollbar-customize";
+
+/* Spinkit */
+@import "spinkit";
