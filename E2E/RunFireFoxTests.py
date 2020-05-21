@@ -1,8 +1,10 @@
 from selenium import webdriver
 
+
 class RunFFTests():
 
     def testMethod(self):
+
         # Initiate the driver instance
         driver = webdriver.Firefox(
             executable_path="/Users/atomar/Documents/workspace_personal/libs/geckodriver")

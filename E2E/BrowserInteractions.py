@@ -1,11 +1,13 @@
 from selenium import webdriver
 
+
+@staticmethod
 class BrowserInteractions():
 
     def test(self):
+
         baseUrl = "https://letskodeit.teachable.com/pages/practice"
         driver = webdriver.Firefox()
-
         # Window Maximize
         driver.maximize_window()
         # Open the Url
